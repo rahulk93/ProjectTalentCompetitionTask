@@ -5704,25 +5704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kester Montoya\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\forev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
       "projectName": "Talent.App.WebApp",
-      "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Kester Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+      "packagesPath": "C:\\Users\\forev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\App\\Talent.App.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kester Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\forev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5731,6 +5729,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5747,8 +5746,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5778,8 +5778,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Formats.Asn1' 6.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
+      "libraryId": "System.Formats.Asn1",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

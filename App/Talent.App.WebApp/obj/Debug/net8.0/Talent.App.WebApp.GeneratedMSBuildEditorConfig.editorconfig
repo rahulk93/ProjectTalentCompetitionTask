@@ -17,99 +17,101 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Talent.App.WebApp
 build_property.RootNamespace = Talent.App.WebApp
-build_property.ProjectDir = C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\App\Talent.App.WebApp\
+build_property.ProjectDir = C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\App\Talent.App.WebApp
+build_property.MSBuildProjectDirectory = C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/About.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/Contact.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/EmployerFeed.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/EmployerFeed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llckZlZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/EmployerJobPost.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/EmployerJobPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llckpvYlBvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/EmployerProfile.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/EmployerProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llclByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/Index.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/ManageJobs.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/ManageJobs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW5hZ2VKb2JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/ResetPassword.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/TalentDetail.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/TalentDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWxlbnREZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/TalentFeed.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/TalentFeed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWxlbnRGZWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/TalentMatching.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/TalentMatching.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWxlbnRNYXRjaGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/TalentProfile.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/TalentProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWxlbnRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/TalentWatchlist.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/TalentWatchlist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYWxlbnRXYXRjaGxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/UserAccountSetting.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/UserAccountSetting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyQWNjb3VudFNldHRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Home/UserSettings.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Home/UserSettings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyU2V0dGluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Shared/Error.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Shared/_Footer.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Shared/_Head.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Shared/_Head.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/_ViewImports.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kester Montoya/Documents/kester/septemberlocal/talent-competition/App/Talent.App.WebApp/Views/_ViewStart.cshtml]
+[C:/Users/forev/ProjectTalentCompetitionTask/App/Talent.App.WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

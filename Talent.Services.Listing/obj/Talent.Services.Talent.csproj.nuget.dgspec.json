@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj": {}
+    "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Listing\\Talent.Services.Talent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+    "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectUniqueName": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj",
         "projectName": "Talent.Common",
-        "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj",
-        "packagesPath": "C:\\Users\\Kester Montoya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\obj\\",
+        "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj",
+        "packagesPath": "C:\\Users\\forev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kester Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\forev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -127,25 +128,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj": {
+    "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Listing\\Talent.Services.Talent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+        "projectUniqueName": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
         "projectName": "Talent.Services.Talent",
-        "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
-        "packagesPath": "C:\\Users\\Kester Montoya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Listing\\obj\\",
+        "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+        "packagesPath": "C:\\Users\\forev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Listing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kester Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\forev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -154,17 +154,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-                "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+              "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj": {
+                "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj"
               },
-              "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
-                "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
+              "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
+                "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
               }
             }
           }
@@ -177,8 +178,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -224,25 +226,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
+    "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
+        "projectUniqueName": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
         "projectName": "Talent.Services.Profile",
-        "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
-        "packagesPath": "C:\\Users\\Kester Montoya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\obj\\",
+        "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
+        "packagesPath": "C:\\Users\\forev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kester Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\forev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -251,14 +252,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-                "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+              "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj": {
+                "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj"
               }
             }
           }
@@ -271,8 +273,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -318,7 +321,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9626,25 +9626,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kester Montoya\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\forev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+      "projectUniqueName": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj",
       "projectName": "Talent.Common",
-      "projectPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\Talent.Common.csproj",
-      "packagesPath": "C:\\Users\\Kester Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Common\\obj\\",
+      "projectPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\Talent.Common.csproj",
+      "packagesPath": "C:\\Users\\forev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kester Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\forev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9653,6 +9651,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9669,8 +9668,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -9753,8 +9753,180 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Http' 2.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-hxrm-9w7p-39cc",
+      "libraryId": "Microsoft.AspNetCore.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Core' 2.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-242j-2gm6-5rwx",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Core' 2.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3m2r-q8x3-xmf7",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Core' 2.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cgpw-2gph-2r9g",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions' 2.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3m2r-q8x3-xmf7",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv' 2.0.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3m2r-q8x3-xmf7",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv' 2.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-vmch-3w2x-vhgq",
+      "libraryId": "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Http' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jgj-8wvc-jh57",
+      "libraryId": "System.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Security' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6xh7-4v2w-36q6",
+      "libraryId": "System.Net.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Security' 4.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ch6p-4jcm-h8vh",
+      "libraryId": "System.Net.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Security' 4.3.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-j8f4-2w4p-mhjc",
+      "libraryId": "System.Net.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Security' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qhqf-ghgh-x2m4",
+      "libraryId": "System.Net.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Xml' 4.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-35hc-x2cw-2j4v",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Xml' 4.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rr3c-f55v-qhv5",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Xml' 4.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh55-786g-wjwj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encodings.Web' 4.4.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-ghhp-997w-qr28",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
+      "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
