@@ -1957,7 +1957,10 @@
           "Sendgrid": "9.10.0"
         },
         "runtime": {
-          "Talent.Common.dll": {}
+          "Talent.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

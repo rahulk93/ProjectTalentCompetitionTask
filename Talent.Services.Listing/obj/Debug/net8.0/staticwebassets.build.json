@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "87xG/V+FClNrVBchqogGxyT5wN/LXRL1Wp9e948NFH0=",
+  "Hash": "dGRz+O6NRG+6dE42h/Cd0xtDQ7KvvAYjQAxhMAfWaIE=",
   "Source": "Talent.Services.Talent",
   "BasePath": "_content/Talent.Services.Talent",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Kester Montoya\\Documents\\kester\\septemberlocal\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
+      "Identity": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\Talent.Services.Profile\\Talent.Services.Profile.csproj",
       "Version": 2,
       "Source": "Talent.Services.Profile",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -19,5 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

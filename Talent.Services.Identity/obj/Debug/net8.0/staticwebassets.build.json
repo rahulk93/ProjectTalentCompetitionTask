@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "FN/bMOn+HN/mxMoqDBztVkq4g6xQX2QY14YhwQwJzyQ=",
+  "Hash": "EgWYicIZozMV5EoTPHU/qCRMY5N8b4z3vpdqjfBq/04=",
   "Source": "Talent.Services.Identity",
   "BasePath": "_content/Talent.Services.Identity",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
