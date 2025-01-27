@@ -170,6 +170,7 @@ C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\Talen
 C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\Talent.Services.Listing\obj\Debug\net8.0\Talent.Services.Talent.pdb
 C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\Talent.Services.Listing\obj\Debug\net8.0\Talent.Services.Talent.genruntimeconfig.cache
 C:\Users\Kester Montoya\Documents\kester\septemberlocal\talent-competition\Talent.Services.Listing\obj\Debug\net8.0\ref\Talent.Services.Talent.dll
+<<<<<<< Updated upstream
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.json
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.deps.json
@@ -179,6 +180,17 @@ C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\ne
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.staticwebassets.endpoints.json
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.exe
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Talent.staticwebassets.endpoints.json
+=======
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.docker.Development.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.docker.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.staticwebassets.endpoints.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\appsettings.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Talent.staticwebassets.endpoints.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.deps.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.runtimeconfig.json
+C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Profile.exe
+>>>>>>> Stashed changes
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Talent.exe
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Talent.deps.json
 C:\Users\forev\ProjectTalentCompetitionTask\Talent.Services.Listing\bin\Debug\net8.0\Talent.Services.Talent.runtimeconfig.json

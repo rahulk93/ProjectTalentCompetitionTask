@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "dQnoiGL/3hgegW5DUTa5cL4Hsb3uz1MKwKeriLzFAdk=",
+=======
+  "Hash": "y0Bp5ygY6RtxY8Kw4FEu0BeSzKVP1YcaOn8NsOQUTZA=",
+>>>>>>> Stashed changes
   "Source": "Talent.App.WebApp",
   "BasePath": "_content/Talent.App.WebApp",
   "Mode": "Default",
@@ -1543,8 +1547,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
       "Fingerprint": "b27yw2pn76",
       "Integrity": "QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ=",
+=======
+      "Fingerprint": "2mcna48dyn",
+      "Integrity": "mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU=",
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\react\\dist\\homePage.bundle.js"
@@ -11614,7 +11623,11 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "js/react/dist/homePage.bundle.b27yw2pn76.js",
+=======
+      "Route": "js/react/dist/homePage.bundle.2mcna48dyn.js",
+>>>>>>> Stashed changes
       "AssetFile": "C:\\Users\\forev\\ProjectTalentCompetitionTask\\App\\Talent.App.WebApp\\wwwroot\\js\\react\\dist\\homePage.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11624,7 +11637,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "7604113"
+=======
+          "Value": "7594673"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -11632,11 +11649,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Sat, 25 Jan 2025 11:25:18 GMT"
+=======
+          "Value": "\"mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 12:07:31 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -11646,7 +11671,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< Updated upstream
           "Value": "b27yw2pn76"
+=======
+          "Value": "2mcna48dyn"
+>>>>>>> Stashed changes
         },
         {
           "Name": "label",
@@ -11654,7 +11683,11 @@
         },
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ="
+=======
+          "Value": "sha256-mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU="
+>>>>>>> Stashed changes
         }
       ]
     },
@@ -11669,7 +11702,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "7604113"
+=======
+          "Value": "7594673"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -11677,11 +11714,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Sat, 25 Jan 2025 11:25:18 GMT"
+=======
+          "Value": "\"mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 12:07:31 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -11691,7 +11736,11 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ="
+=======
+          "Value": "sha256-mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU="
+>>>>>>> Stashed changes
         }
       ]
     },
@@ -12702,7 +12751,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Sat, 25 Jan 2025 11:25:19 GMT"
+=======
+          "Value": "Mon, 27 Jan 2025 11:59:34 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -12747,7 +12800,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Sat, 25 Jan 2025 11:25:19 GMT"
+=======
+          "Value": "Mon, 27 Jan 2025 11:59:34 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -17868,7 +17925,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Sat, 25 Jan 2025 11:25:18 GMT"
+=======
+          "Value": "Mon, 27 Jan 2025 12:07:27 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -17905,7 +17966,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Sat, 25 Jan 2025 11:25:18 GMT"
+=======
+          "Value": "Mon, 27 Jan 2025 12:07:27 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",

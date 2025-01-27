@@ -1290,8 +1290,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< Updated upstream
       <Fingerprint>b27yw2pn76</Fingerprint>
       <Integrity>QxBxwM0tnPlCvkpjnZ0spe7D+5mQtsyvgfgLsYb4jQQ=</Integrity>
+=======
+      <Fingerprint>2mcna48dyn</Fingerprint>
+      <Integrity>mjn7RTiSbd57ubqf5w9PWDcwu0N4/G/00zhmWBZaxYU=</Integrity>
+>>>>>>> Stashed changes
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\dist\homePage.bundle.js'))</OriginalItemSpec>

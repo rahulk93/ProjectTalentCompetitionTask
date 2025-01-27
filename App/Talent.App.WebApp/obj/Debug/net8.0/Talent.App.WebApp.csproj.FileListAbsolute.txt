@@ -475,6 +475,11 @@ C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+<<<<<<< Updated upstream
+=======
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+>>>>>>> Stashed changes
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
@@ -484,7 +489,10 @@ C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+<<<<<<< Updated upstream
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+=======
+>>>>>>> Stashed changes
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\NuGet.Common.dll
@@ -503,11 +511,20 @@ C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+<<<<<<< Updated upstream
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Windows.Extensions.dll
+=======
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\System.Text.Json.dll
+>>>>>>> Stashed changes
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\ar\Humanizer.resources.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -647,10 +664,14 @@ C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+<<<<<<< Updated upstream
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+=======
+C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+>>>>>>> Stashed changes
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\obj\Debug\net8.0\Talent.App.WebApp.csproj.AssemblyReference.cache
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\obj\Debug\net8.0\Talent.App.WebApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\forev\ProjectTalentCompetitionTask\App\Talent.App.WebApp\obj\Debug\net8.0\Talent.App.WebApp.AssemblyInfoInputs.cache
