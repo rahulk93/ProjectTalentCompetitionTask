@@ -12,8 +12,17 @@ import { ChildSingleInput } from '../../Form/SingleInput.jsx'
 import { JobDescription } from './JobDescription.jsx';
 import { JobSummary } from './JobSummary.jsx';
 import { BodyWrapper, loaderData } from '../../Layout/BodyWrapper.jsx';
+import { useParams } from 'react-router-dom';
+import * as Yup from 'yup';
 
-export default class CreateJob extends React.Component {
+export function withRouter(Component) {
+    return function (props) {
+        const params = useParams();
+        return <Component {...props} params={params} />;
+    };
+}
+
+class CreateJob extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -36,13 +45,27 @@ export default class CreateJob extends React.Component {
                     location: { country: "", city: ""}
                 }
             },
-            loaderData: loaderData
+            loaderData: loaderData,
+            createUpdateCopyJob: "Create"
         }
+
+        this.jobSchema = Yup.object().shape({
+            city: Yup.string().required('Location required'),
+            country: Yup.string().required('Country required'),
+            subCategory: Yup.string().required('Sub category required'),
+            category: Yup.string().required('Category required'),
+            jobTypes: Yup.number().min(1, 'At least one job type is required'),
+            expiryDate: Yup.date().required('Expiry date required'),
+            startDate: Yup.date().required('Start date required'),
+            summary: Yup.string().required('Summary required'),
+            description: Yup.string().required('Description required'),
+            title: Yup.string().required('Title required'),
+        });
         
         this.updateStateData = this.updateStateData.bind(this);
         this.addUpdateJob = this.addUpdateJob.bind(this);
         this.loadData = this.loadData.bind(this); 
-   
+        this.isJobValid = this.isJobValid.bind(this);
         this.init = this.init.bind(this);
     };
 
@@ -60,10 +83,11 @@ export default class CreateJob extends React.Component {
     };
 
     loadData() {
-        //const root = "" 
-        //var param = root.getAttribute('data-id');
-        var param = this.props.match.params.id ? this.props.match.params.id : "";//workaround till we get Redux in to keep the page from breaking
-        var copyJobParam = this.props.match.params.copyId ? this.props.match.params.copyId : "";
+        const { id, copyId } = this.props.params;
+        const param = id ? id : "";
+        const copyJobParam = copyId ? copyId : "";
+        const createUpdateCopyJob = id ? "Update" : copyId ? "Copy" : "Create";
+        this.setState({createUpdateCopyJob: createUpdateCopyJob });
 
         if (param != "" || copyJobParam != "") {
             var link = param != "" ? 'http://localhost:51689/listing/listing/GetJobByToEdit?id=' + param
@@ -85,40 +109,61 @@ export default class CreateJob extends React.Component {
                         res.jobData.expiryDate = res.jobData.expiryDate
                             ? moment(res.jobData.expiryDate) > moment()
                                 ? moment(res.jobData.expiryDate) : moment().add(14,'days') : null;
-                        this.setState({ jobData: res.jobData })
+                        this.setState({ jobData: res.jobData, createUpdateCopyJob: createUpdateCopyJob })
                     } else {
                         TalentUtil.notification.show(res.message, "error", null, null)
+                        setTimeout(function() {
+                            window.location = "/ManageJobs";
+                        }, 3000);
                     }
                 }.bind(this)
             })
         }       
     }
+
+    isJobValid(jobData) {
+        const { jobDetails, title, description, summary, expiryDate} = jobData;
+        const { location, startDate, jobType, categories } = jobDetails;
+        const { country, city } = location;
+        const { category, subCategory } = categories;
+        const jobTypes = jobType.length;
+
+        const formData = {title, description, summary, country, city, category, subCategory, jobTypes, startDate, expiryDate, };
+        const validData = this.jobSchema.validateSync(formData);
+        const valid = this.jobSchema.isValidSync(formData);
+
+        return valid;
+    }
+
+
     addUpdateJob() {
-        var jobData = this.state.jobData;
-        console.log("data to save:", jobData);
-        //jobData.jobDetails.startDate = jobData.jobDetails.startDate.toDate();
-        console.log("date:", jobData.jobDetails.startDate);
-        var cookies = Cookies.get('talentAuthToken');   
-        $.ajax({
-            url: 'http://localhost:51689/listing/listing/createUpdateJob',
-            headers: {
-                'Authorization': 'Bearer ' + cookies,
-                'Content-Type': 'application/json'
-            },
-            dataType:'json',
-            type: "post",
-            data: JSON.stringify(jobData),
-            success: function (res) {
-                if (res.success == true) {
-                    TalentUtil.notification.show(res.message, "success", null, null);
-                    window.location = "/ManageJobs";
-                   
-                } else {
-                    TalentUtil.notification.show(res.message, "error", null, null)
-                }
-                
-            }.bind(this)
-        })
+        try {
+            var jobData = this.state.jobData;
+            if (this.isJobValid(jobData)) {
+                var cookies = Cookies.get('talentAuthToken');
+                $.ajax({
+                    url: 'http://localhost:51689/listing/listing/createUpdateJob',
+                    headers: {
+                        'Authorization': 'Bearer ' + cookies,
+                        'Content-Type': 'application/json'
+                    },
+                    dataType: 'json',
+                    type: "post",
+                    data: JSON.stringify(jobData),
+                    success: function (res) {
+                        if (res.success == true) {
+                            TalentUtil.notification.show(res.message, "success", null, null);
+                            window.location = "/ManageJobs";
+                        } else {
+                            TalentUtil.notification.show(res.message, "error", null, null)
+                        }
+
+                    }.bind(this)
+                })
+            }
+        } catch(error) {
+            TalentUtil.notification.show(error, "error", null, null);
+        }
     }
 
     updateStateData(event) {
@@ -127,7 +172,6 @@ export default class CreateJob extends React.Component {
         this.setState({
             jobData:data
         })
-        console.log(data);
     }
    
     render() {
@@ -138,7 +182,7 @@ export default class CreateJob extends React.Component {
                         <div className="ui grid">
                             <div className="row">
                                 <div className="sixteen wide center aligned padded column">
-                                    <h1>Create Job</h1>
+                                    <h1>{this.state.createUpdateCopyJob + " Job"}</h1>
                                 </div>
                             </div>
 
@@ -206,3 +250,5 @@ export default class CreateJob extends React.Component {
         )
     }
 }
+
+export default withRouter(CreateJob);
