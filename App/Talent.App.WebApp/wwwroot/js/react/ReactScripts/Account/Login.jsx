@@ -89,7 +89,7 @@ export default class LoginForm extends React.Component {
         }
 
         $.ajax({
-            url: 'http://localhost:60998/authentication/authentication/signin',
+            url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/signin',
             type: 'POST',
             data: JSON.stringify(loginModel),
             contentType: 'application/json',

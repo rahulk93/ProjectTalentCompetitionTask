@@ -42,7 +42,7 @@ export default class ResetPassword extends React.Component {
             Email: email,
             Token: token
         }
-        let url = `http://localhost:60998/authentication/authentication/verifyResetPasswordToken?o=${email}&p=${token}`;
+        let url = `https://competitionservicesidentity.azurewebsites.net/authentication/authentication/verifyResetPasswordToken?o=${email}&p=${token}`;
         $.ajax({
             url: url,
             type: 'POST',
@@ -50,7 +50,6 @@ export default class ResetPassword extends React.Component {
             contentType: 'application/json',
             dataType: 'json',
             success: function (response) {
-                console.log(response)
                 if (response.success) {
                     if (response.isTokenValid) {
                         this.setState({
@@ -130,7 +129,7 @@ export default class ResetPassword extends React.Component {
         let newPassword = this.state.newPassword;
         let email = this.state.email;
         let token = this.state.token;
-        let resetUrl = `http://localhost:60998/authentication/authentication/resetpassword?o=${email}&p=${token}`;
+        let resetUrl = `https://competitionservicesidentity.azurewebsites.net/authentication/authentication/resetpassword?o=${email}&p=${token}`;
 
         $.ajax({
             url: resetUrl,
@@ -170,7 +169,6 @@ export default class ResetPassword extends React.Component {
         return (error.length === 0 ? false : true);
     };
     render() {
-        console.log(this.state.tokenValid);
         return (
             <Container text>
                 <br /> <br />

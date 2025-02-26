@@ -16,7 +16,7 @@ export class TalentVideoSection extends Component {
         let newVideos = []
         let newValue = true;
 
-        this.props.videos.forEach(x => console.log(x))
+        this.props.videos.forEach(x => )
 
         this.props.videos.forEach(function (x) {
 
@@ -49,7 +49,7 @@ export class TalentVideoSection extends Component {
             <VideoUpload
                 videoName={this.state.profileData.videoName}
                 updateProfileData={this.updateForComponentId}
-                saveVideoUrl={'http://localhost:60290/profile/profile/updateTalentVideo'}
+                saveVideoUrl={'https://competitionservicesprofile.azurewebsites.net/profile/profile/updateTalentVideo'}
             />
         )
         uploaders.push(<VideoUpload videoName='' updateProfileData={this.updateForComponentId} />)

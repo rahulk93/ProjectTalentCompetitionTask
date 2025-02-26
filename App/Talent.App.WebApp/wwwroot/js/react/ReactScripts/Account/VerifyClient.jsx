@@ -46,7 +46,7 @@ export default class VerifyClient extends React.Component {
         let data = {
             recruiterEmail, clientEmail, resetPasswordToken
         }
-        let url = `http://localhost:60998/authentication/authentication/verifyClientToken?recruiterEmail=${recruiterEmail}&clientEmail=${clientEmail}&resetPasswordToken=${resetPasswordToken}`;
+        let url = `https://competitionservicesidentity.azurewebsites.net/authentication/authentication/verifyClientToken?recruiterEmail=${recruiterEmail}&clientEmail=${clientEmail}&resetPasswordToken=${resetPasswordToken}`;
         $.ajax({
             url: url,
             type: 'POST',
@@ -54,7 +54,6 @@ export default class VerifyClient extends React.Component {
             contentType: 'application/json',
             dataType: 'json',
             success: function (response) {
-                console.log(response)
                 if (response.success) {
                     if (response.isTokenValid) {
                         this.setState({
@@ -129,7 +128,7 @@ export default class VerifyClient extends React.Component {
     savePassword() {
         let { newPassword, recruiterEmail, clientEmail, resetPasswordToken } = this.state;
         
-        let resetUrl = `http://localhost:60998/authentication/authentication/validateInvitation?recruiterEmail=${recruiterEmail}&clientEmail=${clientEmail}&resetPasswordToken=${resetPasswordToken}`;
+        let resetUrl = `https://competitionservicesidentity.azurewebsites.net/authentication/authentication/validateInvitation?recruiterEmail=${recruiterEmail}&clientEmail=${clientEmail}&resetPasswordToken=${resetPasswordToken}`;
 
         $.ajax({
             url: resetUrl,
@@ -172,7 +171,6 @@ export default class VerifyClient extends React.Component {
         return (error.length === 0 ? false : true);
     };
     render() {
-        console.log(this.state.tokenValid);
         return (
             <Container text>
                 <br /> <br />
