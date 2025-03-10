@@ -90,6 +90,9 @@ namespace Talent.Services.Identity.Domain.Services
                     };
                     newRecruitor.CompanyContact.Email = user.Email;
                     newRecruitor.CompanyContact.Name = user.CompanyName;
+                    newRecruitor.PrimaryContact.FirstName = user.FirstName;
+                    newRecruitor.PrimaryContact.LastName = user.LastName;
+                    newRecruitor.PrimaryContact.Email = user.Email;
 
                     await _recruitorRepository.Add(newRecruitor);
                     return _jwtHandler.Create(newRecruitor.Id, user.UserRole, true);
@@ -106,6 +109,9 @@ namespace Talent.Services.Identity.Domain.Services
                     };
                     newEmployer.CompanyContact.Email = user.Email;
                     newEmployer.CompanyContact.Name = user.CompanyName;
+                    newEmployer.PrimaryContact.FirstName = user.FirstName;
+                    newEmployer.PrimaryContact.LastName = user.LastName;
+                    newEmployer.PrimaryContact.Email = user.Email;
 
                     await _employerRepository.Add(newEmployer);
                     return _jwtHandler.Create(newEmployer.Id, user.UserRole, true);
