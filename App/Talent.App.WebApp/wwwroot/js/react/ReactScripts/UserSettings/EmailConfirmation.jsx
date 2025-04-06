@@ -7,9 +7,8 @@ export default class EmailConfirmation extends React.Component {
     constructor(props) {
         super(props);
         isVerified: true;
-        console.log(this.props.location.search);
         const values = queryString.parse(this.props.location.search);
-        console.log(values);
+
 
         this.state = {
             pagetype: values.pagetype,
@@ -21,7 +20,7 @@ export default class EmailConfirmation extends React.Component {
     componentDidMount() {
         //verifyEmail
         $.ajax({
-            url: 'http://localhost:60998/authentication/authentication/' + this.state.pagetype,
+            url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/' + this.state.pagetype,
             type: 'GET',
             contentType: 'application/json',
             dataType: 'json',

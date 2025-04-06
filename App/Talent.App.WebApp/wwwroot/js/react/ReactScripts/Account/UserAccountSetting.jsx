@@ -52,7 +52,7 @@ export default class UserAccountSetting extends React.Component {
         const cookies = Cookies.get('talentAuthToken');
         if (field == "name") {            
             $.ajax({
-                url: 'http://localhost:60998/authentication/authentication/changeUserName?userName=' + this.state.userName,
+                url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/changeUserName?userName=' + this.state.userName,
                 type: 'POST',
                 headers: {
                     'Authorization': 'Bearer ' + cookies,
@@ -74,7 +74,7 @@ export default class UserAccountSetting extends React.Component {
         if (field == "password") {
             let data = this.state.password;
             $.ajax({
-                url: 'http://localhost:60998/authentication/authentication/changePassword',
+                url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/changePassword',
                 type: "POST",
                 data: JSON.stringify(data),
                 headers: {
@@ -97,14 +97,13 @@ export default class UserAccountSetting extends React.Component {
                     }
                 }.bind(this),
                 error: function (res) {
-                    console.log(res);
                     TalentUtil.notification.show("Error while saving data", "error");
                 }
             });
         }
         if (field == "deactivate") {
             $.ajax({
-                url: 'http://localhost:60998/authentication/authentication/deactivateAccount',
+                url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/deactivateAccount',
                 type: "POST",
                 headers: {
                     'Authorization': 'Bearer ' + cookies,
@@ -125,7 +124,7 @@ export default class UserAccountSetting extends React.Component {
     getUserRole() {
         const cookies = Cookies.get('talentAuthToken');
         $.ajax({
-            url: 'http://localhost:60998/authentication/authentication/getAccountSettingInfo',
+            url: 'https://competitionservicesidentity.azurewebsites.net/authentication/authentication/getAccountSettingInfo',
             type: 'GET',
             headers: {
                 'Authorization': 'Bearer ' + cookies,
